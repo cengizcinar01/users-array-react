@@ -1,34 +1,68 @@
-export const users = [
+const users = [
     {
+        id: 1,
+        firstName: 'Kendra',
+        lastName: 'Thomas',
         gender: 'female',
-        name: {
-            first: 'test',
-            last: 'test2',
-        },
-        age: 25,
+        age: 52,
+        imageUrl: '#',
     },
     {
+        id: 2,
+        firstName: 'David',
+        lastName: 'Garcia',
         gender: 'male',
-        name: {
-            first: 'Max',
-            last: 'Mustermann',
-        },
-        age: 30,
+        age: 19,
+        imageUrl: '#',
     },
     {
+        id: 3,
+        firstName: 'Alexander',
+        lastName: 'Webb',
+        gender: 'male',
+        age: 53,
+        imageUrl: '#',
+    },
+    {
+        id: 4,
+        firstName: 'Charles',
+        lastName: 'Pearson',
+        gender: 'male',
+        age: 22,
+        imageUrl: '#',
+    },
+    {
+        id: 5,
+        firstName: 'Brandon',
+        lastName: 'Clark',
         gender: 'female',
-        name: {
-            first: 'Erika',
-            last: 'Musterfrau',
-        },
-        age: 28,
+        age: 58,
+        imageUrl: '#',
     },
     {
+        id: 6,
+        firstName: 'Jake',
+        lastName: 'Greene',
         gender: 'male',
-        name: {
-            first: 'John',
-            last: 'Doe',
-        },
-        age: 35,
+        age: 21,
+        imageUrl: '#',
+    },
+    {
+        id: 7,
+        firstName: 'Patricia',
+        lastName: 'Lewis',
+        gender: 'male',
+        age: 41,
+        imageUrl: '#',
+    },
+    {
+        id: 8,
+        firstName: 'David',
+        lastName: 'Chavez',
+        gender: 'female',
+        age: 26,
+        imageUrl: '#',
     },
 ];
+
+export default users;
