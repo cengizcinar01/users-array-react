@@ -75,6 +75,7 @@ function App() {
                             </div>
                         ))}
                     </div>
+                    <div className="block__space"></div>
                 </div>
             </main>
         </>
